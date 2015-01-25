@@ -42,10 +42,7 @@ cacheSolve <- function(mat, ...) {
     ## 'mat' is a special "matrix" object returned by the
     ## makeCacheMatrix function.
     
-    ## Return the inverse of the matrix. If the inverse has 
-    ## already been calculated (and the matrix has not changed), 
-    ## then retrieve the inverse from the cache. Otherwise, 
-    ## calculate the inverse and store it into the cache.
+    ## Return the inverse of the matrix.
     
     ## check if the inverse has already been calculated
     inv <- mat$getinverse()
